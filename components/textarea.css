@@ -1,0 +1,23 @@
+.textarea-container {
+  display: flex;
+  position: relative;
+}
+.textarea-textarea {
+  align-self: center;
+  text-align: center;
+}
+@media(max-width: 1200px) {
+  .textarea-textarea {
+    width: 100%;
+    height: fit-content;
+    font-size: larger;
+    text-align: center;
+    margin-right: auto;
+  }
+}
+@media(max-width: 479px) {
+  .textarea-textarea {
+    font-size: inherit;
+    align-self: center;
+  }
+}

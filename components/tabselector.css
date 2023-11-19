@@ -1,0 +1,10 @@
+.tabselector-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
