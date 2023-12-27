@@ -6,3 +6,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.slideshow-container2 {
+  display: contents;
+}

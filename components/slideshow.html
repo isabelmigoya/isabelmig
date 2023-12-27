@@ -42,12 +42,37 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
       data-tag="font"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
   </head>
   <body>
     <link rel="stylesheet" href="../style.css" />
     <div>
       <link href="./slideshow.css" rel="stylesheet" />
-      <div class="slideshow-container"></div>
+      <div class="slideshow-container">
+        <div>
+          <div class="slideshow-container2">
+            <script
+              src="https://cdn.commoninja.com/sdk/latest/commonninja.js"
+              defer=""
+            ></script>
+            <div
+              class="commonninja_component pid-59d06020-d60e-478c-925f-edaa2cf27c95"
+            ></div>
+          </div>
+        </div>
+      </div>
     </div>
     <script
       defer=""
